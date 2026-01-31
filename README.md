@@ -158,7 +158,7 @@ Looker Studio Dashboards
 ## Dashboards (Looker Studio)
 
 ### Executive Overview
-![Executive Overview Dashboard](screenshots/executive_overview.png)
+<img src="screenshots/executive_overview.png" width="900"/>
 
 - Hospital-wide occupancy trends
 - Average Length of Stay (LOS) and 30-day readmission KPIs
@@ -167,7 +167,7 @@ Looker Studio Dashboards
 ---
 
 ### Capacity Optimization & Scenario Analysis
-![Capacity Optimization Scenario](screenshots/capacity_optimization.png)
+<img src="screenshots/capacity_optimization.png" width="900"/>
 
 - Simulated LOS reduction scenarios (10–15%)
 - Bed-days saved by department
