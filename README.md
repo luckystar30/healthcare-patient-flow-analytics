@@ -159,7 +159,7 @@ Looker Studio Dashboards
 
 ### Executive Overview
 <img 
-  src="https://raw.githubusercontent.com/luckystar30/healthcare-patient-flow-analytics/main/screenshots/executive_overview.png"
+  src="https://raw.githubusercontent.com/luckystar30/healthcare-patient-flow-analytics/main/screenshots/executive_overview.png.png"
   width="900"
 />
 
@@ -171,7 +171,7 @@ Looker Studio Dashboards
 
 ### Capacity Optimization & Scenario Analysis
 <img 
-  src="https://raw.githubusercontent.com/luckystar30/healthcare-patient-flow-analytics/main/screenshots/capacity_optimization.png"
+  src="https://raw.githubusercontent.com/luckystar30/healthcare-patient-flow-analytics/main/screenshots/capacity_optimization.png.png"
   width="900"
 />
 
