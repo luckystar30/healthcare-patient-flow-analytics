@@ -68,14 +68,27 @@ The project uses synthetic / anonymized healthcare data to ensure privacy and sa
 The dataset structure mirrors real hospital operational data commonly found in EHR and CMS-style systems.
 
 ## Architecture Overview
-
+```text
 Raw CSV Files
-→ Ingested into BigQuery (raw datasets)
-→ Transformed using SQL (patient flow, utilization, readmissions)
-→ Materialized Analytics Tables
-→ Validated and enhanced with Python (data quality, features, simulations)
-→ Visualized in Looker Studio Dashboards
-
+     ↓
+BigQuery (raw datasets)
+     ↓
+SQL Transformations
+     • Patient Flow
+     • Utilization Metrics
+     • Readmission Analysis
+     ↓
+Analytics Tables
+     ↓
+Python
+     • Data Validation
+     • Feature Engineering
+     • Scenario Simulation
+     ↓
+Looker Studio Dashboards
+     • Executive Overview
+     • Capacity Optimization Scenarios
+```
 ## Repository Structure
 ```text
 .
@@ -144,29 +157,22 @@ Raw CSV Files
 
 ## Dashboards (Looker Studio)
 
- **Executive Overview**
+### Executive Overview
+![Executive Overview Dashboard](screenshots/executive_overview.png)
 
-- Hospital occupancy trends
-
+- Hospital-wide occupancy trends
 - Average LOS and readmission KPIs
-
 - High-impact operational bottlenecks
 
-**Operations View**
+---
 
-- Department-level utilization
+### Capacity Optimization & Scenario Analysis
+![Capacity Optimization Scenario](screenshots/capacity_optimization.png)
 
-- Admission vs discharge timing
+- Simulated LOS reduction scenarios (10–15%)
+- Bed-days saved by department
+- Capacity gains without adding beds
 
-- Daily and hourly demand patterns
-
-**Scenario Analysis**
-
-- Capacity impact of LOS reductions
-
-- Operational what-if simulations
-
-(Dashboard links and screenshots can be added here)
 
 ## How to Run the Project
 
