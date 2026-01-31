@@ -1,0 +1,5 @@
+patient_id,department,diagnosis,los_days,readmitted_30d
+P001,Cardiology,Heart Failure,5.2,0
+P002,Orthopedics,Fracture,2.8,1
+P003,ICU,Sepsis,6.4,0
+P004,General Surgery,Appendicitis,3.3,0

@@ -1,0 +1,3 @@
+- Designed end-to-end healthcare analytics pipeline
+- Optimized patient throughput using LOS simulations
+- Delivered executive-ready operational dashboards

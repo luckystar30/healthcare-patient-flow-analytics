@@ -1,0 +1,5 @@
+patient_id,admission_ts,department,diagnosis,bed_id
+P001,2024-01-02 09:10,Cardiology,Heart Failure,B12
+P002,2024-01-03 14:30,Orthopedics,Fracture,O07
+P003,2024-01-03 22:45,ICU,Sepsis,I03
+P004,2024-01-05 08:20,General Surgery,Appendicitis,G11
