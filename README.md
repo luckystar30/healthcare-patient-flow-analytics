@@ -183,12 +183,12 @@ Raw CSV Files
    - sql/analytics
 
 **3. Run Python Scripts**
-
+```bash
 pip install pandas
 python python/validation/data_quality_checks.py
 python python/features/feature_engineering.py
 python python/simulation/los_reduction_simulation.py
-
+```
 
 **4. Build Dashboards**
 
