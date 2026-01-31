@@ -1,13 +1,13 @@
-**Healthcare Patient Flow & Capacity Optimization Analytics**
+# Healthcare Patient Flow & Capacity Optimization Analytics
 
-**Overview**
+# Overview
 
 Hospitals operate under constant pressure to reduce patient wait times, optimize bed capacity, and improve care quality—often without additional resources.
 This project analyzes end-to-end patient flow, from admission to discharge, to uncover operational inefficiencies and quantify opportunities to improve throughput and capacity using data-driven insights.
 
 **Tech Stack:** BigQuery · SQL · Python · Looker Studio
 
-**Business Problems**
+# Business Problems
 
 - Healthcare operations teams commonly face:
 
@@ -23,7 +23,7 @@ This project analyzes end-to-end patient flow, from admission to discharge, to u
 
 This project addresses these challenges by transforming raw admission and discharge events into actionable operational metrics.
 
-**Project Objectives**
+# Project Objectives
 
 - Analyze patient movement across departments
 
@@ -45,7 +45,7 @@ This project addresses these challenges by transforming raw admission and discha
 
 4) Highlighted patient segments with higher readmission risk to support targeted interventions
 
-**Data Description**
+# Data Description
 
 The project uses synthetic / anonymized healthcare data to ensure privacy and safety.
 
@@ -67,7 +67,7 @@ The project uses synthetic / anonymized healthcare data to ensure privacy and sa
 
 The dataset structure mirrors real hospital operational data commonly found in EHR and CMS-style systems.
 
-**Architecture Overview**
+# Architecture Overview
 
 Raw CSV Files
 → Ingested into BigQuery (raw datasets)
@@ -76,7 +76,7 @@ Raw CSV Files
 → Validated and enhanced with Python (data quality, features, simulations)
 → Visualized in Looker Studio Dashboards
 
-**Repository Structure**
+# Repository Structure
 ```text
 .
 ├── data/
@@ -94,7 +94,7 @@ Raw CSV Files
 ├── docs/                   # Architecture & interview notes
 └── README.md
 ```
-**Key Metrics Calculated**
+# Key Metrics Calculated
 
 **- Average Length of Stay (LOS)**
 
@@ -108,7 +108,7 @@ Raw CSV Files
 
 **- Department-Level Bottlenecks**
 
-**Core Analyses**
+# Core Analyses
 
 # Patient Flow Analysis
 
@@ -168,7 +168,7 @@ Raw CSV Files
 
 (Dashboard links and screenshots can be added here)
 
-**How to Run the Project**
+# How to Run the Project
 
 **1. Load Data**
 
@@ -196,7 +196,7 @@ python python/simulation/los_reduction_simulation.py
 
 - Create Executive, Operations, and Scenario dashboards
 
-**Business Impact**
+# Business Impact
 
 This project demonstrates how analytics can:
 
@@ -208,7 +208,7 @@ This project demonstrates how analytics can:
 
 4. Support data-driven healthcare operations at scale
 
-**Use Cases**
+# Use Cases
 
 - Healthcare operations analytics
 
@@ -220,6 +220,6 @@ This project demonstrates how analytics can:
 
 - Interview case studies
 
-**Notes**
+# Notes
 
 This project uses synthetic healthcare data and is intended for educational, analytical, and portfolio purposes only.
