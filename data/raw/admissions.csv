@@ -1,5 +1,1001 @@
 patient_id,admission_ts,department,diagnosis,bed_id
-P001,2024-01-02 09:10,Cardiology,Heart Failure,B12
-P002,2024-01-03 14:30,Orthopedics,Fracture,O07
-P003,2024-01-03 22:45,ICU,Sepsis,I03
-P004,2024-01-05 08:20,General Surgery,Appendicitis,G11
+P100000,2024-01-23 11:00:00,Cardiology,Arrhythmia,B51
+P100001,2024-02-27 01:00:00,Orthopedics,Fracture,B47
+P100002,2024-02-13 22:00:00,ICU,Sepsis,B111
+P100003,2024-02-05 22:00:00,General Surgery,Appendicitis,B4
+P100004,2024-01-10 08:00:00,ICU,Respiratory Failure,B7
+P100005,2024-01-10 08:00:00,General Surgery,Gallstones,B109
+P100006,2024-01-04 11:00:00,General Surgery,Gallstones,B35
+P100007,2024-02-21 23:00:00,ICU,Respiratory Failure,B48
+P100008,2024-02-06 01:00:00,Cardiology,Arrhythmia,B73
+P100009,2024-02-12 11:00:00,Orthopedics,Joint Replacement,B72
+P100010,2024-01-02 05:00:00,Cardiology,Arrhythmia,B116
+P100011,2024-02-28 04:00:00,ICU,Sepsis,B45
+P100012,2024-02-19 22:00:00,ICU,Respiratory Failure,B81
+P100013,2024-01-13 17:00:00,Cardiology,Heart Failure,B81
+P100014,2024-01-11 21:00:00,General Surgery,Appendicitis,B113
+P100015,2024-01-12 00:00:00,ICU,Respiratory Failure,B97
+P100016,2024-01-19 06:00:00,Cardiology,Arrhythmia,B96
+P100017,2024-02-01 11:00:00,General Surgery,Appendicitis,B72
+P100018,2024-01-26 22:00:00,ICU,Sepsis,B19
+P100019,2024-01-18 11:00:00,Cardiology,Arrhythmia,B63
+P100020,2024-02-06 17:00:00,General Surgery,Gallstones,B38
+P100021,2024-01-09 08:00:00,Orthopedics,Fracture,B67
+P100022,2024-01-18 12:00:00,ICU,Respiratory Failure,B59
+P100023,2024-01-22 23:00:00,ICU,Respiratory Failure,B69
+P100024,2024-01-28 08:00:00,ICU,Respiratory Failure,B13
+P100025,2024-02-17 02:00:00,Orthopedics,Fracture,B47
+P100026,2024-01-12 23:00:00,ICU,Sepsis,B110
+P100027,2024-01-31 20:00:00,ICU,Sepsis,B61
+P100028,2024-02-05 13:00:00,Orthopedics,Joint Replacement,B31
+P100029,2024-01-03 18:00:00,ICU,Respiratory Failure,B119
+P100030,2024-02-06 10:00:00,Cardiology,Heart Failure,B80
+P100031,2024-01-11 05:00:00,General Surgery,Appendicitis,B114
+P100032,2024-01-04 21:00:00,Cardiology,Heart Failure,B96
+P100033,2024-02-26 22:00:00,Cardiology,Arrhythmia,B22
+P100034,2024-02-27 22:00:00,Cardiology,Heart Failure,B93
+P100035,2024-02-18 12:00:00,General Surgery,Appendicitis,B86
+P100036,2024-01-19 06:00:00,Orthopedics,Joint Replacement,B43
+P100037,2024-01-06 20:00:00,General Surgery,Gallstones,B67
+P100038,2024-02-11 01:00:00,Cardiology,Arrhythmia,B54
+P100039,2024-01-27 09:00:00,Orthopedics,Fracture,B10
+P100040,2024-01-08 07:00:00,Orthopedics,Joint Replacement,B42
+P100041,2024-01-30 17:00:00,General Surgery,Gallstones,B64
+P100042,2024-01-03 01:00:00,Orthopedics,Fracture,B21
+P100043,2024-02-24 13:00:00,General Surgery,Gallstones,B80
+P100044,2024-01-16 12:00:00,ICU,Sepsis,B76
+P100045,2024-02-09 18:00:00,General Surgery,Appendicitis,B66
+P100046,2024-01-19 16:00:00,Cardiology,Arrhythmia,B41
+P100047,2024-02-01 04:00:00,Cardiology,Arrhythmia,B24
+P100048,2024-02-02 19:00:00,ICU,Respiratory Failure,B35
+P100049,2024-01-12 02:00:00,Cardiology,Arrhythmia,B56
+P100050,2024-02-28 04:00:00,ICU,Respiratory Failure,B30
+P100051,2024-02-16 12:00:00,Orthopedics,Joint Replacement,B57
+P100052,2024-02-26 08:00:00,ICU,Sepsis,B94
+P100053,2024-02-23 16:00:00,General Surgery,Appendicitis,B47
+P100054,2024-02-05 20:00:00,ICU,Respiratory Failure,B35
+P100055,2024-02-25 07:00:00,Orthopedics,Fracture,B19
+P100056,2024-01-06 07:00:00,General Surgery,Gallstones,B114
+P100057,2024-01-12 18:00:00,Orthopedics,Fracture,B8
+P100058,2024-01-03 17:00:00,Orthopedics,Fracture,B26
+P100059,2024-01-20 12:00:00,General Surgery,Appendicitis,B113
+P100060,2024-01-24 07:00:00,ICU,Respiratory Failure,B104
+P100061,2024-01-17 06:00:00,ICU,Sepsis,B71
+P100062,2024-02-19 17:00:00,General Surgery,Gallstones,B30
+P100063,2024-01-22 09:00:00,Orthopedics,Fracture,B7
+P100064,2024-01-17 20:00:00,Orthopedics,Fracture,B67
+P100065,2024-02-02 13:00:00,General Surgery,Appendicitis,B65
+P100066,2024-01-09 10:00:00,Cardiology,Heart Failure,B36
+P100067,2024-02-18 03:00:00,Cardiology,Heart Failure,B25
+P100068,2024-01-05 11:00:00,Orthopedics,Joint Replacement,B37
+P100069,2024-02-29 05:00:00,Orthopedics,Joint Replacement,B1
+P100070,2024-02-16 08:00:00,Orthopedics,Fracture,B15
+P100071,2024-01-12 22:00:00,Cardiology,Heart Failure,B37
+P100072,2024-01-01 07:00:00,Cardiology,Heart Failure,B13
+P100073,2024-02-18 22:00:00,Cardiology,Heart Failure,B104
+P100074,2024-02-12 09:00:00,ICU,Respiratory Failure,B8
+P100075,2024-02-13 17:00:00,Orthopedics,Fracture,B5
+P100076,2024-02-16 06:00:00,Orthopedics,Joint Replacement,B60
+P100077,2024-01-05 10:00:00,General Surgery,Appendicitis,B73
+P100078,2024-01-22 12:00:00,Cardiology,Arrhythmia,B1
+P100079,2024-01-07 22:00:00,ICU,Sepsis,B36
+P100080,2024-02-21 18:00:00,General Surgery,Appendicitis,B35
+P100081,2024-02-07 09:00:00,Cardiology,Arrhythmia,B66
+P100082,2024-01-20 20:00:00,Orthopedics,Fracture,B63
+P100083,2024-01-04 19:00:00,ICU,Sepsis,B104
+P100084,2024-01-19 15:00:00,ICU,Sepsis,B23
+P100085,2024-01-20 12:00:00,Orthopedics,Joint Replacement,B9
+P100086,2024-02-13 18:00:00,General Surgery,Appendicitis,B34
+P100087,2024-02-08 06:00:00,Cardiology,Heart Failure,B46
+P100088,2024-02-23 05:00:00,ICU,Respiratory Failure,B78
+P100089,2024-01-29 07:00:00,Cardiology,Arrhythmia,B4
+P100090,2024-01-08 04:00:00,ICU,Respiratory Failure,B30
+P100091,2024-02-12 19:00:00,General Surgery,Appendicitis,B95
+P100092,2024-02-15 15:00:00,General Surgery,Appendicitis,B102
+P100093,2024-02-03 16:00:00,Orthopedics,Fracture,B75
+P100094,2024-02-16 06:00:00,Cardiology,Arrhythmia,B99
+P100095,2024-01-30 15:00:00,Cardiology,Heart Failure,B72
+P100096,2024-02-01 08:00:00,Cardiology,Heart Failure,B3
+P100097,2024-01-26 15:00:00,Cardiology,Arrhythmia,B14
+P100098,2024-01-02 12:00:00,General Surgery,Gallstones,B60
+P100099,2024-01-07 11:00:00,Orthopedics,Joint Replacement,B77
+P100100,2024-01-02 21:00:00,Cardiology,Arrhythmia,B45
+P100101,2024-02-08 04:00:00,ICU,Respiratory Failure,B96
+P100102,2024-01-19 20:00:00,ICU,Sepsis,B34
+P100103,2024-01-31 12:00:00,ICU,Respiratory Failure,B45
+P100104,2024-02-24 10:00:00,ICU,Sepsis,B61
+P100105,2024-01-15 22:00:00,Cardiology,Heart Failure,B83
+P100106,2024-01-25 14:00:00,Orthopedics,Joint Replacement,B102
+P100107,2024-02-15 07:00:00,General Surgery,Gallstones,B16
+P100108,2024-01-14 17:00:00,General Surgery,Gallstones,B66
+P100109,2024-01-05 14:00:00,Cardiology,Heart Failure,B40
+P100110,2024-01-18 09:00:00,ICU,Respiratory Failure,B17
+P100111,2024-01-10 16:00:00,Cardiology,Arrhythmia,B119
+P100112,2024-02-25 18:00:00,Cardiology,Arrhythmia,B34
+P100113,2024-02-18 11:00:00,Orthopedics,Joint Replacement,B106
+P100114,2024-02-08 00:00:00,General Surgery,Gallstones,B16
+P100115,2024-02-22 06:00:00,General Surgery,Appendicitis,B102
+P100116,2024-02-18 05:00:00,Cardiology,Heart Failure,B60
+P100117,2024-01-12 04:00:00,ICU,Sepsis,B66
+P100118,2024-02-23 13:00:00,Orthopedics,Joint Replacement,B66
+P100119,2024-02-02 08:00:00,Cardiology,Arrhythmia,B90
+P100120,2024-02-18 10:00:00,ICU,Respiratory Failure,B13
+P100121,2024-02-23 18:00:00,ICU,Sepsis,B56
+P100122,2024-01-20 01:00:00,ICU,Respiratory Failure,B111
+P100123,2024-01-07 14:00:00,ICU,Respiratory Failure,B31
+P100124,2024-01-14 16:00:00,General Surgery,Gallstones,B34
+P100125,2024-01-26 15:00:00,General Surgery,Appendicitis,B39
+P100126,2024-02-19 01:00:00,Cardiology,Arrhythmia,B67
+P100127,2024-02-21 15:00:00,Orthopedics,Fracture,B8
+P100128,2024-01-01 10:00:00,Orthopedics,Joint Replacement,B87
+P100129,2024-01-31 15:00:00,Orthopedics,Fracture,B78
+P100130,2024-01-26 01:00:00,General Surgery,Appendicitis,B55
+P100131,2024-01-14 07:00:00,Orthopedics,Fracture,B27
+P100132,2024-01-08 04:00:00,Cardiology,Arrhythmia,B118
+P100133,2024-01-21 06:00:00,Cardiology,Arrhythmia,B93
+P100134,2024-02-26 13:00:00,General Surgery,Appendicitis,B103
+P100135,2024-01-20 09:00:00,Cardiology,Heart Failure,B53
+P100136,2024-02-01 03:00:00,ICU,Respiratory Failure,B39
+P100137,2024-02-12 04:00:00,Orthopedics,Joint Replacement,B65
+P100138,2024-01-22 19:00:00,Orthopedics,Fracture,B17
+P100139,2024-02-28 07:00:00,General Surgery,Gallstones,B105
+P100140,2024-02-27 17:00:00,ICU,Respiratory Failure,B30
+P100141,2024-01-16 02:00:00,Orthopedics,Joint Replacement,B53
+P100142,2024-01-30 20:00:00,General Surgery,Gallstones,B13
+P100143,2024-01-19 01:00:00,General Surgery,Appendicitis,B21
+P100144,2024-01-18 02:00:00,Orthopedics,Joint Replacement,B19
+P100145,2024-01-03 05:00:00,ICU,Respiratory Failure,B53
+P100146,2024-02-06 13:00:00,General Surgery,Appendicitis,B19
+P100147,2024-01-31 03:00:00,General Surgery,Appendicitis,B57
+P100148,2024-01-04 02:00:00,ICU,Respiratory Failure,B25
+P100149,2024-01-17 17:00:00,ICU,Respiratory Failure,B86
+P100150,2024-02-24 11:00:00,General Surgery,Gallstones,B31
+P100151,2024-01-15 08:00:00,ICU,Respiratory Failure,B81
+P100152,2024-01-09 16:00:00,General Surgery,Appendicitis,B55
+P100153,2024-01-30 08:00:00,General Surgery,Appendicitis,B23
+P100154,2024-02-29 03:00:00,General Surgery,Appendicitis,B32
+P100155,2024-01-15 12:00:00,General Surgery,Gallstones,B62
+P100156,2024-02-10 07:00:00,Cardiology,Arrhythmia,B74
+P100157,2024-02-15 16:00:00,ICU,Respiratory Failure,B10
+P100158,2024-01-15 06:00:00,ICU,Respiratory Failure,B100
+P100159,2024-02-13 16:00:00,Cardiology,Heart Failure,B72
+P100160,2024-01-23 01:00:00,ICU,Sepsis,B54
+P100161,2024-02-07 22:00:00,Cardiology,Arrhythmia,B52
+P100162,2024-02-08 00:00:00,Orthopedics,Fracture,B20
+P100163,2024-02-02 03:00:00,General Surgery,Gallstones,B32
+P100164,2024-01-06 10:00:00,Cardiology,Arrhythmia,B114
+P100165,2024-02-20 02:00:00,ICU,Sepsis,B14
+P100166,2024-01-20 05:00:00,ICU,Respiratory Failure,B50
+P100167,2024-01-12 04:00:00,Orthopedics,Joint Replacement,B28
+P100168,2024-01-03 10:00:00,Cardiology,Heart Failure,B110
+P100169,2024-02-05 10:00:00,Orthopedics,Joint Replacement,B116
+P100170,2024-02-10 15:00:00,General Surgery,Gallstones,B53
+P100171,2024-01-01 23:00:00,ICU,Sepsis,B24
+P100172,2024-01-31 17:00:00,General Surgery,Gallstones,B79
+P100173,2024-01-14 14:00:00,Orthopedics,Fracture,B22
+P100174,2024-02-08 17:00:00,General Surgery,Gallstones,B30
+P100175,2024-01-11 11:00:00,Orthopedics,Fracture,B63
+P100176,2024-02-11 10:00:00,General Surgery,Appendicitis,B4
+P100177,2024-01-24 04:00:00,Cardiology,Heart Failure,B77
+P100178,2024-02-26 04:00:00,General Surgery,Gallstones,B59
+P100179,2024-01-09 06:00:00,Orthopedics,Fracture,B87
+P100180,2024-01-21 11:00:00,ICU,Sepsis,B8
+P100181,2024-01-07 19:00:00,Orthopedics,Fracture,B82
+P100182,2024-02-25 11:00:00,General Surgery,Appendicitis,B12
+P100183,2024-02-22 15:00:00,ICU,Sepsis,B119
+P100184,2024-01-16 11:00:00,Cardiology,Arrhythmia,B31
+P100185,2024-02-09 14:00:00,ICU,Respiratory Failure,B78
+P100186,2024-02-19 00:00:00,General Surgery,Gallstones,B34
+P100187,2024-02-03 07:00:00,Cardiology,Arrhythmia,B82
+P100188,2024-02-01 18:00:00,Orthopedics,Joint Replacement,B98
+P100189,2024-01-15 12:00:00,General Surgery,Gallstones,B75
+P100190,2024-01-06 14:00:00,Cardiology,Arrhythmia,B105
+P100191,2024-02-23 19:00:00,General Surgery,Appendicitis,B76
+P100192,2024-02-24 00:00:00,Orthopedics,Joint Replacement,B49
+P100193,2024-02-07 23:00:00,General Surgery,Appendicitis,B79
+P100194,2024-01-21 08:00:00,Cardiology,Heart Failure,B57
+P100195,2024-01-21 22:00:00,ICU,Respiratory Failure,B95
+P100196,2024-02-13 13:00:00,ICU,Sepsis,B113
+P100197,2024-02-23 19:00:00,ICU,Sepsis,B93
+P100198,2024-02-23 05:00:00,General Surgery,Appendicitis,B26
+P100199,2024-02-16 19:00:00,Cardiology,Heart Failure,B18
+P100200,2024-02-08 12:00:00,General Surgery,Gallstones,B96
+P100201,2024-01-06 01:00:00,Cardiology,Arrhythmia,B86
+P100202,2024-01-10 16:00:00,Cardiology,Arrhythmia,B38
+P100203,2024-02-23 21:00:00,Orthopedics,Joint Replacement,B81
+P100204,2024-02-06 09:00:00,Orthopedics,Joint Replacement,B87
+P100205,2024-01-01 13:00:00,General Surgery,Gallstones,B88
+P100206,2024-01-07 02:00:00,General Surgery,Gallstones,B50
+P100207,2024-02-09 19:00:00,Orthopedics,Joint Replacement,B8
+P100208,2024-01-01 07:00:00,Orthopedics,Joint Replacement,B41
+P100209,2024-01-10 15:00:00,ICU,Respiratory Failure,B6
+P100210,2024-02-02 22:00:00,Orthopedics,Fracture,B69
+P100211,2024-02-11 12:00:00,Orthopedics,Joint Replacement,B44
+P100212,2024-02-09 02:00:00,Cardiology,Heart Failure,B64
+P100213,2024-01-14 10:00:00,General Surgery,Appendicitis,B29
+P100214,2024-02-12 17:00:00,General Surgery,Appendicitis,B28
+P100215,2024-01-15 05:00:00,Cardiology,Heart Failure,B11
+P100216,2024-01-20 12:00:00,Cardiology,Arrhythmia,B65
+P100217,2024-02-14 18:00:00,General Surgery,Appendicitis,B107
+P100218,2024-02-08 23:00:00,General Surgery,Gallstones,B19
+P100219,2024-02-20 22:00:00,Orthopedics,Joint Replacement,B9
+P100220,2024-02-09 10:00:00,ICU,Sepsis,B27
+P100221,2024-02-04 02:00:00,Cardiology,Arrhythmia,B34
+P100222,2024-01-06 14:00:00,Orthopedics,Fracture,B44
+P100223,2024-01-23 01:00:00,ICU,Sepsis,B68
+P100224,2024-01-16 21:00:00,Orthopedics,Joint Replacement,B100
+P100225,2024-01-15 15:00:00,General Surgery,Gallstones,B82
+P100226,2024-02-28 09:00:00,Orthopedics,Fracture,B15
+P100227,2024-01-24 14:00:00,Orthopedics,Joint Replacement,B51
+P100228,2024-02-23 12:00:00,ICU,Respiratory Failure,B13
+P100229,2024-02-07 20:00:00,Orthopedics,Joint Replacement,B83
+P100230,2024-02-17 16:00:00,ICU,Sepsis,B49
+P100231,2024-01-31 03:00:00,Cardiology,Heart Failure,B70
+P100232,2024-02-04 14:00:00,Cardiology,Arrhythmia,B112
+P100233,2024-01-30 13:00:00,Cardiology,Arrhythmia,B56
+P100234,2024-01-12 17:00:00,General Surgery,Gallstones,B76
+P100235,2024-02-13 08:00:00,Orthopedics,Joint Replacement,B51
+P100236,2024-01-17 20:00:00,ICU,Respiratory Failure,B37
+P100237,2024-01-02 11:00:00,Orthopedics,Fracture,B17
+P100238,2024-02-08 17:00:00,ICU,Respiratory Failure,B58
+P100239,2024-01-11 15:00:00,Cardiology,Heart Failure,B87
+P100240,2024-02-26 10:00:00,ICU,Respiratory Failure,B90
+P100241,2024-02-27 05:00:00,General Surgery,Appendicitis,B29
+P100242,2024-02-24 21:00:00,General Surgery,Gallstones,B33
+P100243,2024-01-23 05:00:00,ICU,Sepsis,B60
+P100244,2024-01-01 22:00:00,General Surgery,Gallstones,B91
+P100245,2024-02-25 16:00:00,General Surgery,Appendicitis,B89
+P100246,2024-01-26 16:00:00,Cardiology,Heart Failure,B55
+P100247,2024-02-27 23:00:00,Cardiology,Heart Failure,B10
+P100248,2024-02-27 19:00:00,ICU,Sepsis,B47
+P100249,2024-02-21 04:00:00,General Surgery,Appendicitis,B23
+P100250,2024-01-18 16:00:00,General Surgery,Appendicitis,B85
+P100251,2024-01-24 02:00:00,Orthopedics,Joint Replacement,B21
+P100252,2024-02-21 01:00:00,Cardiology,Heart Failure,B107
+P100253,2024-01-20 00:00:00,Cardiology,Arrhythmia,B13
+P100254,2024-01-11 04:00:00,General Surgery,Gallstones,B101
+P100255,2024-02-03 09:00:00,Orthopedics,Joint Replacement,B33
+P100256,2024-02-26 04:00:00,Cardiology,Arrhythmia,B24
+P100257,2024-02-11 18:00:00,Orthopedics,Joint Replacement,B108
+P100258,2024-02-04 04:00:00,Cardiology,Heart Failure,B11
+P100259,2024-01-06 19:00:00,General Surgery,Appendicitis,B17
+P100260,2024-02-06 21:00:00,Orthopedics,Fracture,B68
+P100261,2024-02-29 09:00:00,General Surgery,Gallstones,B47
+P100262,2024-01-09 09:00:00,Orthopedics,Fracture,B25
+P100263,2024-02-01 02:00:00,Orthopedics,Fracture,B94
+P100264,2024-02-22 15:00:00,Cardiology,Heart Failure,B73
+P100265,2024-02-14 10:00:00,Cardiology,Heart Failure,B21
+P100266,2024-02-11 19:00:00,Orthopedics,Fracture,B84
+P100267,2024-02-12 03:00:00,Orthopedics,Joint Replacement,B83
+P100268,2024-01-22 13:00:00,General Surgery,Appendicitis,B83
+P100269,2024-01-18 14:00:00,Orthopedics,Joint Replacement,B12
+P100270,2024-02-18 13:00:00,General Surgery,Gallstones,B37
+P100271,2024-02-18 14:00:00,ICU,Respiratory Failure,B42
+P100272,2024-02-22 00:00:00,General Surgery,Gallstones,B17
+P100273,2024-02-24 19:00:00,Cardiology,Arrhythmia,B101
+P100274,2024-01-31 16:00:00,Orthopedics,Fracture,B118
+P100275,2024-01-31 02:00:00,Cardiology,Heart Failure,B48
+P100276,2024-02-17 21:00:00,Cardiology,Heart Failure,B103
+P100277,2024-02-08 23:00:00,ICU,Respiratory Failure,B28
+P100278,2024-02-12 02:00:00,Cardiology,Heart Failure,B41
+P100279,2024-02-17 17:00:00,Orthopedics,Fracture,B99
+P100280,2024-02-23 09:00:00,General Surgery,Gallstones,B47
+P100281,2024-01-21 06:00:00,General Surgery,Gallstones,B112
+P100282,2024-01-23 12:00:00,General Surgery,Gallstones,B18
+P100283,2024-01-06 15:00:00,Cardiology,Arrhythmia,B78
+P100284,2024-02-04 16:00:00,Orthopedics,Fracture,B99
+P100285,2024-01-03 03:00:00,Orthopedics,Joint Replacement,B108
+P100286,2024-01-28 22:00:00,Cardiology,Arrhythmia,B105
+P100287,2024-02-02 13:00:00,Orthopedics,Fracture,B71
+P100288,2024-01-18 04:00:00,Cardiology,Heart Failure,B105
+P100289,2024-02-05 10:00:00,Cardiology,Arrhythmia,B13
+P100290,2024-01-02 19:00:00,Orthopedics,Fracture,B82
+P100291,2024-01-03 05:00:00,Cardiology,Arrhythmia,B101
+P100292,2024-02-19 08:00:00,General Surgery,Gallstones,B13
+P100293,2024-01-22 14:00:00,General Surgery,Appendicitis,B100
+P100294,2024-01-08 14:00:00,ICU,Sepsis,B31
+P100295,2024-02-01 08:00:00,Cardiology,Arrhythmia,B2
+P100296,2024-02-16 04:00:00,Cardiology,Arrhythmia,B16
+P100297,2024-01-13 22:00:00,Cardiology,Arrhythmia,B9
+P100298,2024-02-07 08:00:00,General Surgery,Appendicitis,B73
+P100299,2024-01-06 02:00:00,General Surgery,Gallstones,B38
+P100300,2024-01-04 02:00:00,Cardiology,Arrhythmia,B75
+P100301,2024-02-01 21:00:00,ICU,Respiratory Failure,B54
+P100302,2024-02-02 10:00:00,Cardiology,Arrhythmia,B56
+P100303,2024-02-08 05:00:00,Orthopedics,Joint Replacement,B86
+P100304,2024-02-13 13:00:00,General Surgery,Appendicitis,B97
+P100305,2024-02-28 13:00:00,ICU,Respiratory Failure,B100
+P100306,2024-01-31 23:00:00,General Surgery,Gallstones,B109
+P100307,2024-01-20 09:00:00,ICU,Respiratory Failure,B87
+P100308,2024-02-17 17:00:00,Orthopedics,Joint Replacement,B45
+P100309,2024-01-17 05:00:00,ICU,Sepsis,B109
+P100310,2024-01-27 08:00:00,Cardiology,Heart Failure,B34
+P100311,2024-01-05 16:00:00,ICU,Sepsis,B9
+P100312,2024-01-02 12:00:00,Orthopedics,Joint Replacement,B88
+P100313,2024-02-27 18:00:00,ICU,Respiratory Failure,B8
+P100314,2024-02-20 03:00:00,Orthopedics,Fracture,B7
+P100315,2024-02-11 18:00:00,General Surgery,Appendicitis,B36
+P100316,2024-01-25 12:00:00,Orthopedics,Fracture,B18
+P100317,2024-01-11 09:00:00,General Surgery,Gallstones,B3
+P100318,2024-01-10 09:00:00,Cardiology,Arrhythmia,B28
+P100319,2024-01-16 00:00:00,Cardiology,Heart Failure,B70
+P100320,2024-02-02 22:00:00,Cardiology,Heart Failure,B108
+P100321,2024-02-12 21:00:00,Cardiology,Heart Failure,B44
+P100322,2024-02-09 14:00:00,ICU,Respiratory Failure,B21
+P100323,2024-01-17 19:00:00,Cardiology,Arrhythmia,B28
+P100324,2024-02-27 07:00:00,ICU,Respiratory Failure,B104
+P100325,2024-02-14 06:00:00,Orthopedics,Fracture,B54
+P100326,2024-02-03 06:00:00,Cardiology,Heart Failure,B54
+P100327,2024-02-06 16:00:00,General Surgery,Gallstones,B65
+P100328,2024-01-26 04:00:00,General Surgery,Appendicitis,B100
+P100329,2024-01-15 20:00:00,Orthopedics,Joint Replacement,B21
+P100330,2024-01-22 08:00:00,General Surgery,Appendicitis,B107
+P100331,2024-02-15 11:00:00,General Surgery,Appendicitis,B99
+P100332,2024-01-01 20:00:00,Cardiology,Heart Failure,B13
+P100333,2024-01-07 23:00:00,ICU,Sepsis,B57
+P100334,2024-01-03 18:00:00,ICU,Respiratory Failure,B49
+P100335,2024-01-03 10:00:00,General Surgery,Appendicitis,B118
+P100336,2024-02-21 07:00:00,Cardiology,Arrhythmia,B54
+P100337,2024-02-12 05:00:00,General Surgery,Gallstones,B10
+P100338,2024-01-29 10:00:00,Cardiology,Arrhythmia,B53
+P100339,2024-01-06 20:00:00,Cardiology,Heart Failure,B44
+P100340,2024-01-30 11:00:00,Orthopedics,Joint Replacement,B47
+P100341,2024-01-29 09:00:00,Orthopedics,Joint Replacement,B53
+P100342,2024-01-11 09:00:00,ICU,Respiratory Failure,B74
+P100343,2024-01-27 00:00:00,General Surgery,Appendicitis,B46
+P100344,2024-01-24 21:00:00,General Surgery,Appendicitis,B13
+P100345,2024-02-06 22:00:00,Orthopedics,Joint Replacement,B37
+P100346,2024-02-08 02:00:00,Orthopedics,Fracture,B102
+P100347,2024-01-03 17:00:00,Orthopedics,Joint Replacement,B24
+P100348,2024-01-23 11:00:00,ICU,Respiratory Failure,B2
+P100349,2024-02-07 13:00:00,Cardiology,Heart Failure,B86
+P100350,2024-01-31 04:00:00,ICU,Respiratory Failure,B81
+P100351,2024-02-21 09:00:00,General Surgery,Appendicitis,B100
+P100352,2024-02-09 12:00:00,Orthopedics,Fracture,B14
+P100353,2024-01-10 18:00:00,General Surgery,Gallstones,B10
+P100354,2024-01-05 05:00:00,Orthopedics,Fracture,B35
+P100355,2024-02-08 13:00:00,ICU,Sepsis,B25
+P100356,2024-01-02 14:00:00,ICU,Respiratory Failure,B3
+P100357,2024-02-05 03:00:00,Orthopedics,Joint Replacement,B111
+P100358,2024-02-26 09:00:00,Orthopedics,Fracture,B102
+P100359,2024-02-04 12:00:00,General Surgery,Appendicitis,B17
+P100360,2024-01-24 06:00:00,ICU,Respiratory Failure,B12
+P100361,2024-02-08 14:00:00,Cardiology,Heart Failure,B54
+P100362,2024-01-28 11:00:00,General Surgery,Appendicitis,B116
+P100363,2024-02-02 17:00:00,General Surgery,Appendicitis,B24
+P100364,2024-02-26 11:00:00,General Surgery,Appendicitis,B29
+P100365,2024-01-24 03:00:00,Cardiology,Heart Failure,B43
+P100366,2024-02-27 16:00:00,General Surgery,Appendicitis,B25
+P100367,2024-02-24 07:00:00,ICU,Sepsis,B100
+P100368,2024-01-12 17:00:00,Cardiology,Arrhythmia,B60
+P100369,2024-01-05 03:00:00,Cardiology,Arrhythmia,B90
+P100370,2024-01-07 01:00:00,ICU,Respiratory Failure,B102
+P100371,2024-01-02 02:00:00,Cardiology,Arrhythmia,B65
+P100372,2024-01-06 15:00:00,ICU,Respiratory Failure,B84
+P100373,2024-02-10 23:00:00,Orthopedics,Fracture,B119
+P100374,2024-01-05 06:00:00,Cardiology,Heart Failure,B28
+P100375,2024-01-20 03:00:00,ICU,Sepsis,B16
+P100376,2024-02-20 16:00:00,Orthopedics,Fracture,B47
+P100377,2024-01-02 09:00:00,Orthopedics,Joint Replacement,B81
+P100378,2024-02-18 20:00:00,Orthopedics,Fracture,B104
+P100379,2024-01-17 21:00:00,General Surgery,Appendicitis,B92
+P100380,2024-01-08 02:00:00,Cardiology,Arrhythmia,B58
+P100381,2024-02-11 19:00:00,Orthopedics,Fracture,B76
+P100382,2024-02-07 17:00:00,ICU,Sepsis,B27
+P100383,2024-02-22 15:00:00,Orthopedics,Joint Replacement,B118
+P100384,2024-02-14 02:00:00,General Surgery,Appendicitis,B53
+P100385,2024-02-18 05:00:00,Orthopedics,Fracture,B42
+P100386,2024-01-17 22:00:00,General Surgery,Appendicitis,B59
+P100387,2024-01-11 15:00:00,Cardiology,Heart Failure,B47
+P100388,2024-02-15 00:00:00,ICU,Sepsis,B94
+P100389,2024-02-18 09:00:00,Orthopedics,Joint Replacement,B105
+P100390,2024-02-29 10:00:00,Cardiology,Arrhythmia,B34
+P100391,2024-01-25 18:00:00,Cardiology,Arrhythmia,B37
+P100392,2024-01-23 07:00:00,Cardiology,Arrhythmia,B6
+P100393,2024-02-16 14:00:00,Orthopedics,Joint Replacement,B7
+P100394,2024-01-21 10:00:00,Orthopedics,Joint Replacement,B96
+P100395,2024-02-25 20:00:00,ICU,Sepsis,B96
+P100396,2024-02-21 12:00:00,Orthopedics,Joint Replacement,B117
+P100397,2024-01-26 17:00:00,Cardiology,Arrhythmia,B25
+P100398,2024-02-15 01:00:00,General Surgery,Appendicitis,B33
+P100399,2024-02-15 06:00:00,General Surgery,Appendicitis,B55
+P100400,2024-01-07 04:00:00,Cardiology,Arrhythmia,B58
+P100401,2024-02-24 03:00:00,Cardiology,Heart Failure,B7
+P100402,2024-01-31 07:00:00,Cardiology,Arrhythmia,B116
+P100403,2024-02-19 14:00:00,General Surgery,Appendicitis,B57
+P100404,2024-01-20 04:00:00,General Surgery,Gallstones,B12
+P100405,2024-02-23 17:00:00,Orthopedics,Fracture,B16
+P100406,2024-01-24 08:00:00,ICU,Sepsis,B80
+P100407,2024-01-01 15:00:00,ICU,Respiratory Failure,B43
+P100408,2024-02-24 07:00:00,General Surgery,Gallstones,B117
+P100409,2024-01-06 11:00:00,ICU,Respiratory Failure,B100
+P100410,2024-01-20 03:00:00,Cardiology,Arrhythmia,B77
+P100411,2024-02-27 00:00:00,Cardiology,Arrhythmia,B7
+P100412,2024-02-27 00:00:00,Orthopedics,Fracture,B100
+P100413,2024-02-04 09:00:00,Cardiology,Arrhythmia,B111
+P100414,2024-02-07 21:00:00,Orthopedics,Joint Replacement,B51
+P100415,2024-01-27 21:00:00,ICU,Sepsis,B73
+P100416,2024-01-18 14:00:00,Cardiology,Heart Failure,B32
+P100417,2024-01-20 17:00:00,Cardiology,Arrhythmia,B75
+P100418,2024-02-10 08:00:00,Orthopedics,Fracture,B8
+P100419,2024-02-15 03:00:00,ICU,Sepsis,B97
+P100420,2024-02-17 11:00:00,Orthopedics,Joint Replacement,B87
+P100421,2024-02-17 09:00:00,Orthopedics,Fracture,B89
+P100422,2024-01-06 11:00:00,Cardiology,Heart Failure,B72
+P100423,2024-01-30 15:00:00,Cardiology,Arrhythmia,B45
+P100424,2024-01-04 10:00:00,ICU,Respiratory Failure,B86
+P100425,2024-02-02 23:00:00,ICU,Sepsis,B59
+P100426,2024-01-27 11:00:00,Cardiology,Heart Failure,B4
+P100427,2024-02-23 06:00:00,ICU,Respiratory Failure,B104
+P100428,2024-01-22 01:00:00,General Surgery,Appendicitis,B67
+P100429,2024-01-08 00:00:00,ICU,Sepsis,B29
+P100430,2024-01-09 13:00:00,Orthopedics,Fracture,B105
+P100431,2024-02-15 16:00:00,Orthopedics,Joint Replacement,B29
+P100432,2024-02-07 02:00:00,Orthopedics,Fracture,B98
+P100433,2024-01-07 01:00:00,General Surgery,Appendicitis,B98
+P100434,2024-01-06 01:00:00,Cardiology,Arrhythmia,B28
+P100435,2024-02-12 01:00:00,Cardiology,Heart Failure,B77
+P100436,2024-01-05 08:00:00,Orthopedics,Fracture,B79
+P100437,2024-02-19 07:00:00,General Surgery,Gallstones,B87
+P100438,2024-02-12 08:00:00,Cardiology,Arrhythmia,B44
+P100439,2024-01-05 21:00:00,General Surgery,Gallstones,B90
+P100440,2024-01-06 02:00:00,ICU,Respiratory Failure,B4
+P100441,2024-02-29 04:00:00,Cardiology,Heart Failure,B90
+P100442,2024-01-23 10:00:00,General Surgery,Appendicitis,B104
+P100443,2024-01-23 05:00:00,Orthopedics,Joint Replacement,B9
+P100444,2024-02-18 18:00:00,ICU,Respiratory Failure,B119
+P100445,2024-02-26 20:00:00,Cardiology,Heart Failure,B5
+P100446,2024-02-29 03:00:00,General Surgery,Gallstones,B56
+P100447,2024-02-15 04:00:00,ICU,Sepsis,B96
+P100448,2024-01-23 13:00:00,ICU,Respiratory Failure,B84
+P100449,2024-01-06 00:00:00,General Surgery,Appendicitis,B50
+P100450,2024-02-16 15:00:00,Orthopedics,Joint Replacement,B75
+P100451,2024-02-03 12:00:00,General Surgery,Gallstones,B15
+P100452,2024-01-26 10:00:00,ICU,Sepsis,B32
+P100453,2024-02-24 09:00:00,General Surgery,Gallstones,B28
+P100454,2024-01-07 16:00:00,Cardiology,Heart Failure,B22
+P100455,2024-01-30 13:00:00,ICU,Sepsis,B105
+P100456,2024-01-01 16:00:00,General Surgery,Appendicitis,B17
+P100457,2024-01-29 02:00:00,General Surgery,Appendicitis,B59
+P100458,2024-01-04 09:00:00,Cardiology,Heart Failure,B90
+P100459,2024-01-08 03:00:00,General Surgery,Gallstones,B108
+P100460,2024-01-08 01:00:00,Orthopedics,Joint Replacement,B71
+P100461,2024-02-08 22:00:00,General Surgery,Appendicitis,B106
+P100462,2024-02-14 18:00:00,Cardiology,Arrhythmia,B57
+P100463,2024-02-05 00:00:00,General Surgery,Appendicitis,B26
+P100464,2024-02-27 17:00:00,ICU,Respiratory Failure,B25
+P100465,2024-01-23 11:00:00,Cardiology,Arrhythmia,B10
+P100466,2024-01-18 03:00:00,ICU,Respiratory Failure,B45
+P100467,2024-02-22 02:00:00,Orthopedics,Joint Replacement,B83
+P100468,2024-01-14 09:00:00,ICU,Sepsis,B11
+P100469,2024-02-27 19:00:00,General Surgery,Appendicitis,B77
+P100470,2024-01-01 17:00:00,General Surgery,Gallstones,B53
+P100471,2024-02-28 04:00:00,General Surgery,Gallstones,B72
+P100472,2024-01-03 14:00:00,ICU,Sepsis,B104
+P100473,2024-02-23 11:00:00,Orthopedics,Joint Replacement,B68
+P100474,2024-02-01 15:00:00,Orthopedics,Fracture,B111
+P100475,2024-02-29 13:00:00,General Surgery,Appendicitis,B95
+P100476,2024-01-05 10:00:00,ICU,Sepsis,B28
+P100477,2024-02-03 05:00:00,General Surgery,Gallstones,B75
+P100478,2024-02-28 03:00:00,General Surgery,Appendicitis,B107
+P100479,2024-02-01 09:00:00,Orthopedics,Joint Replacement,B65
+P100480,2024-02-07 18:00:00,ICU,Sepsis,B49
+P100481,2024-02-11 17:00:00,Cardiology,Arrhythmia,B47
+P100482,2024-01-28 06:00:00,Orthopedics,Joint Replacement,B52
+P100483,2024-02-07 15:00:00,Cardiology,Arrhythmia,B102
+P100484,2024-02-05 01:00:00,Orthopedics,Fracture,B88
+P100485,2024-02-24 01:00:00,Orthopedics,Fracture,B54
+P100486,2024-01-03 17:00:00,Orthopedics,Joint Replacement,B60
+P100487,2024-01-17 20:00:00,General Surgery,Gallstones,B57
+P100488,2024-02-27 00:00:00,Orthopedics,Joint Replacement,B47
+P100489,2024-02-23 09:00:00,Orthopedics,Fracture,B31
+P100490,2024-01-28 08:00:00,Cardiology,Heart Failure,B105
+P100491,2024-02-07 04:00:00,Orthopedics,Fracture,B46
+P100492,2024-01-17 15:00:00,Cardiology,Heart Failure,B114
+P100493,2024-01-12 06:00:00,Cardiology,Arrhythmia,B26
+P100494,2024-01-28 19:00:00,General Surgery,Gallstones,B113
+P100495,2024-01-22 04:00:00,General Surgery,Appendicitis,B114
+P100496,2024-02-05 00:00:00,General Surgery,Appendicitis,B5
+P100497,2024-01-05 15:00:00,Orthopedics,Joint Replacement,B84
+P100498,2024-02-28 11:00:00,Orthopedics,Fracture,B52
+P100499,2024-02-29 04:00:00,ICU,Sepsis,B105
+P100500,2024-02-11 21:00:00,Orthopedics,Fracture,B75
+P100501,2024-02-02 03:00:00,Orthopedics,Fracture,B54
+P100502,2024-01-19 13:00:00,Cardiology,Heart Failure,B33
+P100503,2024-02-18 19:00:00,Orthopedics,Fracture,B50
+P100504,2024-02-11 02:00:00,Orthopedics,Joint Replacement,B38
+P100505,2024-01-10 18:00:00,Orthopedics,Fracture,B27
+P100506,2024-02-24 15:00:00,General Surgery,Appendicitis,B98
+P100507,2024-02-19 08:00:00,Orthopedics,Joint Replacement,B15
+P100508,2024-02-26 23:00:00,General Surgery,Gallstones,B96
+P100509,2024-02-13 13:00:00,General Surgery,Gallstones,B61
+P100510,2024-02-06 19:00:00,ICU,Sepsis,B21
+P100511,2024-01-26 02:00:00,General Surgery,Gallstones,B46
+P100512,2024-02-25 23:00:00,ICU,Sepsis,B69
+P100513,2024-02-21 23:00:00,Cardiology,Heart Failure,B6
+P100514,2024-01-03 17:00:00,Cardiology,Heart Failure,B38
+P100515,2024-01-02 13:00:00,Cardiology,Arrhythmia,B62
+P100516,2024-01-23 14:00:00,General Surgery,Gallstones,B86
+P100517,2024-02-18 15:00:00,ICU,Respiratory Failure,B62
+P100518,2024-02-29 05:00:00,Cardiology,Arrhythmia,B82
+P100519,2024-01-10 00:00:00,ICU,Respiratory Failure,B78
+P100520,2024-02-05 15:00:00,Cardiology,Heart Failure,B74
+P100521,2024-01-23 20:00:00,ICU,Sepsis,B46
+P100522,2024-02-28 04:00:00,Orthopedics,Fracture,B13
+P100523,2024-02-20 12:00:00,Cardiology,Heart Failure,B95
+P100524,2024-02-20 07:00:00,Orthopedics,Joint Replacement,B94
+P100525,2024-01-29 02:00:00,Orthopedics,Joint Replacement,B3
+P100526,2024-01-25 21:00:00,Orthopedics,Fracture,B94
+P100527,2024-01-17 09:00:00,Orthopedics,Joint Replacement,B6
+P100528,2024-01-04 09:00:00,ICU,Respiratory Failure,B93
+P100529,2024-02-21 21:00:00,Orthopedics,Fracture,B8
+P100530,2024-02-18 18:00:00,Orthopedics,Fracture,B44
+P100531,2024-02-29 23:00:00,General Surgery,Gallstones,B109
+P100532,2024-02-29 19:00:00,General Surgery,Gallstones,B107
+P100533,2024-02-03 07:00:00,Orthopedics,Fracture,B108
+P100534,2024-02-16 03:00:00,Orthopedics,Fracture,B33
+P100535,2024-02-26 16:00:00,Cardiology,Heart Failure,B81
+P100536,2024-02-20 23:00:00,Cardiology,Arrhythmia,B112
+P100537,2024-01-15 20:00:00,General Surgery,Appendicitis,B75
+P100538,2024-01-28 00:00:00,Cardiology,Heart Failure,B77
+P100539,2024-01-08 17:00:00,Orthopedics,Joint Replacement,B50
+P100540,2024-02-27 05:00:00,General Surgery,Gallstones,B11
+P100541,2024-02-06 08:00:00,Cardiology,Arrhythmia,B95
+P100542,2024-01-14 17:00:00,General Surgery,Gallstones,B28
+P100543,2024-02-10 07:00:00,Orthopedics,Joint Replacement,B108
+P100544,2024-02-07 02:00:00,ICU,Sepsis,B70
+P100545,2024-01-22 11:00:00,Orthopedics,Fracture,B41
+P100546,2024-01-07 19:00:00,ICU,Respiratory Failure,B16
+P100547,2024-02-10 07:00:00,General Surgery,Gallstones,B68
+P100548,2024-02-01 05:00:00,Cardiology,Arrhythmia,B99
+P100549,2024-02-16 08:00:00,General Surgery,Gallstones,B48
+P100550,2024-02-01 05:00:00,ICU,Respiratory Failure,B56
+P100551,2024-02-21 03:00:00,General Surgery,Appendicitis,B64
+P100552,2024-02-03 02:00:00,ICU,Sepsis,B59
+P100553,2024-02-03 15:00:00,ICU,Sepsis,B90
+P100554,2024-02-22 14:00:00,Cardiology,Heart Failure,B62
+P100555,2024-01-25 05:00:00,Cardiology,Arrhythmia,B76
+P100556,2024-01-09 00:00:00,General Surgery,Appendicitis,B11
+P100557,2024-01-02 17:00:00,Orthopedics,Joint Replacement,B101
+P100558,2024-02-15 07:00:00,ICU,Respiratory Failure,B89
+P100559,2024-02-07 05:00:00,ICU,Respiratory Failure,B18
+P100560,2024-02-12 05:00:00,Orthopedics,Fracture,B19
+P100561,2024-01-13 18:00:00,Cardiology,Arrhythmia,B87
+P100562,2024-01-09 04:00:00,General Surgery,Appendicitis,B55
+P100563,2024-01-01 20:00:00,Orthopedics,Fracture,B102
+P100564,2024-01-22 00:00:00,ICU,Respiratory Failure,B118
+P100565,2024-02-05 09:00:00,Orthopedics,Joint Replacement,B82
+P100566,2024-01-24 12:00:00,General Surgery,Gallstones,B26
+P100567,2024-01-27 05:00:00,Cardiology,Heart Failure,B6
+P100568,2024-02-24 05:00:00,General Surgery,Gallstones,B4
+P100569,2024-01-21 21:00:00,Orthopedics,Fracture,B108
+P100570,2024-01-31 20:00:00,General Surgery,Gallstones,B115
+P100571,2024-02-17 00:00:00,Cardiology,Arrhythmia,B29
+P100572,2024-01-24 19:00:00,General Surgery,Appendicitis,B59
+P100573,2024-02-07 07:00:00,ICU,Sepsis,B98
+P100574,2024-02-21 17:00:00,Cardiology,Heart Failure,B17
+P100575,2024-02-26 23:00:00,Cardiology,Heart Failure,B107
+P100576,2024-01-09 19:00:00,Cardiology,Heart Failure,B43
+P100577,2024-02-25 14:00:00,General Surgery,Appendicitis,B117
+P100578,2024-01-30 12:00:00,General Surgery,Gallstones,B80
+P100579,2024-01-16 11:00:00,Orthopedics,Joint Replacement,B66
+P100580,2024-01-28 13:00:00,Cardiology,Heart Failure,B34
+P100581,2024-02-28 19:00:00,Orthopedics,Joint Replacement,B119
+P100582,2024-01-30 13:00:00,General Surgery,Appendicitis,B8
+P100583,2024-01-20 17:00:00,Orthopedics,Joint Replacement,B13
+P100584,2024-02-08 00:00:00,ICU,Respiratory Failure,B106
+P100585,2024-01-15 09:00:00,Cardiology,Heart Failure,B8
+P100586,2024-01-05 13:00:00,General Surgery,Appendicitis,B94
+P100587,2024-01-08 17:00:00,Orthopedics,Fracture,B96
+P100588,2024-01-08 16:00:00,Orthopedics,Joint Replacement,B100
+P100589,2024-01-10 02:00:00,General Surgery,Appendicitis,B111
+P100590,2024-01-09 07:00:00,General Surgery,Gallstones,B94
+P100591,2024-02-08 10:00:00,ICU,Sepsis,B65
+P100592,2024-01-11 21:00:00,Cardiology,Arrhythmia,B43
+P100593,2024-01-21 17:00:00,Cardiology,Arrhythmia,B39
+P100594,2024-02-23 19:00:00,General Surgery,Appendicitis,B81
+P100595,2024-01-29 10:00:00,General Surgery,Gallstones,B59
+P100596,2024-02-10 01:00:00,Orthopedics,Joint Replacement,B84
+P100597,2024-01-11 08:00:00,Cardiology,Heart Failure,B88
+P100598,2024-01-12 12:00:00,Cardiology,Arrhythmia,B114
+P100599,2024-01-03 10:00:00,ICU,Sepsis,B86
+P100600,2024-01-11 03:00:00,Cardiology,Heart Failure,B93
+P100601,2024-01-17 17:00:00,Orthopedics,Fracture,B86
+P100602,2024-01-11 14:00:00,Cardiology,Heart Failure,B44
+P100603,2024-01-06 07:00:00,Orthopedics,Joint Replacement,B9
+P100604,2024-01-08 05:00:00,Cardiology,Arrhythmia,B37
+P100605,2024-01-28 15:00:00,Orthopedics,Joint Replacement,B74
+P100606,2024-01-13 09:00:00,Cardiology,Heart Failure,B36
+P100607,2024-01-22 20:00:00,ICU,Respiratory Failure,B101
+P100608,2024-01-31 04:00:00,Cardiology,Arrhythmia,B92
+P100609,2024-02-11 10:00:00,Orthopedics,Fracture,B28
+P100610,2024-01-03 08:00:00,ICU,Sepsis,B42
+P100611,2024-02-17 23:00:00,General Surgery,Gallstones,B43
+P100612,2024-02-07 16:00:00,Orthopedics,Fracture,B85
+P100613,2024-01-05 21:00:00,Orthopedics,Fracture,B88
+P100614,2024-02-22 09:00:00,Orthopedics,Fracture,B42
+P100615,2024-02-25 06:00:00,General Surgery,Appendicitis,B104
+P100616,2024-01-04 15:00:00,ICU,Respiratory Failure,B66
+P100617,2024-01-17 14:00:00,General Surgery,Appendicitis,B55
+P100618,2024-02-18 08:00:00,General Surgery,Appendicitis,B72
+P100619,2024-02-14 21:00:00,General Surgery,Appendicitis,B48
+P100620,2024-01-12 01:00:00,Orthopedics,Fracture,B91
+P100621,2024-01-13 13:00:00,Cardiology,Heart Failure,B22
+P100622,2024-01-23 05:00:00,General Surgery,Appendicitis,B101
+P100623,2024-01-30 01:00:00,ICU,Sepsis,B27
+P100624,2024-02-07 02:00:00,Cardiology,Heart Failure,B93
+P100625,2024-01-23 03:00:00,General Surgery,Gallstones,B67
+P100626,2024-01-28 18:00:00,Cardiology,Heart Failure,B108
+P100627,2024-02-14 20:00:00,Orthopedics,Joint Replacement,B13
+P100628,2024-01-03 04:00:00,Cardiology,Heart Failure,B45
+P100629,2024-01-16 03:00:00,Orthopedics,Fracture,B10
+P100630,2024-02-12 19:00:00,General Surgery,Appendicitis,B100
+P100631,2024-02-23 17:00:00,Orthopedics,Fracture,B9
+P100632,2024-01-31 16:00:00,General Surgery,Gallstones,B54
+P100633,2024-02-01 22:00:00,General Surgery,Appendicitis,B119
+P100634,2024-01-07 10:00:00,ICU,Sepsis,B27
+P100635,2024-01-27 20:00:00,Cardiology,Arrhythmia,B34
+P100636,2024-02-01 22:00:00,Orthopedics,Joint Replacement,B115
+P100637,2024-01-15 13:00:00,Cardiology,Heart Failure,B1
+P100638,2024-01-17 03:00:00,ICU,Respiratory Failure,B32
+P100639,2024-01-23 15:00:00,ICU,Respiratory Failure,B89
+P100640,2024-01-02 04:00:00,Orthopedics,Joint Replacement,B93
+P100641,2024-01-20 07:00:00,ICU,Sepsis,B71
+P100642,2024-01-13 16:00:00,Orthopedics,Fracture,B113
+P100643,2024-01-20 15:00:00,General Surgery,Appendicitis,B67
+P100644,2024-01-08 04:00:00,Cardiology,Arrhythmia,B84
+P100645,2024-02-23 10:00:00,General Surgery,Appendicitis,B20
+P100646,2024-02-05 14:00:00,Cardiology,Arrhythmia,B117
+P100647,2024-02-10 17:00:00,ICU,Sepsis,B94
+P100648,2024-02-17 08:00:00,General Surgery,Appendicitis,B35
+P100649,2024-01-30 21:00:00,General Surgery,Gallstones,B99
+P100650,2024-01-06 05:00:00,Cardiology,Heart Failure,B113
+P100651,2024-02-02 05:00:00,Orthopedics,Joint Replacement,B103
+P100652,2024-02-05 05:00:00,Orthopedics,Joint Replacement,B91
+P100653,2024-02-14 17:00:00,Orthopedics,Fracture,B90
+P100654,2024-01-26 21:00:00,Cardiology,Arrhythmia,B78
+P100655,2024-01-08 15:00:00,ICU,Sepsis,B17
+P100656,2024-01-18 00:00:00,General Surgery,Appendicitis,B18
+P100657,2024-01-22 18:00:00,Orthopedics,Joint Replacement,B45
+P100658,2024-02-08 18:00:00,Orthopedics,Fracture,B116
+P100659,2024-02-04 05:00:00,Orthopedics,Joint Replacement,B93
+P100660,2024-01-22 08:00:00,General Surgery,Appendicitis,B84
+P100661,2024-02-29 04:00:00,Orthopedics,Fracture,B53
+P100662,2024-02-06 08:00:00,ICU,Sepsis,B91
+P100663,2024-01-15 05:00:00,Orthopedics,Fracture,B82
+P100664,2024-01-07 02:00:00,ICU,Sepsis,B68
+P100665,2024-01-10 04:00:00,ICU,Respiratory Failure,B65
+P100666,2024-01-15 18:00:00,Cardiology,Arrhythmia,B114
+P100667,2024-01-10 15:00:00,ICU,Respiratory Failure,B1
+P100668,2024-01-12 04:00:00,Cardiology,Arrhythmia,B58
+P100669,2024-01-18 02:00:00,ICU,Respiratory Failure,B26
+P100670,2024-01-11 09:00:00,Orthopedics,Joint Replacement,B109
+P100671,2024-02-23 19:00:00,ICU,Sepsis,B20
+P100672,2024-01-05 19:00:00,ICU,Sepsis,B116
+P100673,2024-02-01 11:00:00,ICU,Respiratory Failure,B87
+P100674,2024-01-25 14:00:00,General Surgery,Gallstones,B10
+P100675,2024-02-28 22:00:00,Orthopedics,Fracture,B59
+P100676,2024-01-07 17:00:00,Cardiology,Heart Failure,B75
+P100677,2024-01-24 20:00:00,Orthopedics,Fracture,B41
+P100678,2024-02-28 04:00:00,Cardiology,Arrhythmia,B105
+P100679,2024-02-21 22:00:00,General Surgery,Gallstones,B5
+P100680,2024-02-19 00:00:00,Orthopedics,Joint Replacement,B65
+P100681,2024-01-16 11:00:00,ICU,Sepsis,B17
+P100682,2024-01-11 06:00:00,General Surgery,Appendicitis,B22
+P100683,2024-02-10 02:00:00,ICU,Respiratory Failure,B98
+P100684,2024-02-25 18:00:00,Cardiology,Arrhythmia,B109
+P100685,2024-02-03 09:00:00,ICU,Sepsis,B41
+P100686,2024-02-04 07:00:00,ICU,Sepsis,B93
+P100687,2024-01-17 19:00:00,Orthopedics,Fracture,B68
+P100688,2024-02-16 04:00:00,General Surgery,Appendicitis,B69
+P100689,2024-01-12 05:00:00,General Surgery,Gallstones,B11
+P100690,2024-01-20 10:00:00,Cardiology,Heart Failure,B56
+P100691,2024-01-26 12:00:00,Orthopedics,Fracture,B51
+P100692,2024-01-31 10:00:00,Orthopedics,Fracture,B21
+P100693,2024-01-15 13:00:00,Cardiology,Arrhythmia,B99
+P100694,2024-01-07 21:00:00,Orthopedics,Joint Replacement,B76
+P100695,2024-02-06 15:00:00,Cardiology,Heart Failure,B26
+P100696,2024-01-18 07:00:00,Cardiology,Heart Failure,B115
+P100697,2024-02-04 20:00:00,Cardiology,Heart Failure,B19
+P100698,2024-01-10 06:00:00,ICU,Respiratory Failure,B109
+P100699,2024-01-29 20:00:00,Orthopedics,Joint Replacement,B60
+P100700,2024-02-01 22:00:00,ICU,Respiratory Failure,B71
+P100701,2024-01-04 02:00:00,Orthopedics,Fracture,B47
+P100702,2024-01-21 04:00:00,Orthopedics,Joint Replacement,B119
+P100703,2024-01-09 01:00:00,Orthopedics,Fracture,B71
+P100704,2024-01-04 19:00:00,Orthopedics,Fracture,B26
+P100705,2024-02-29 09:00:00,Cardiology,Heart Failure,B40
+P100706,2024-01-20 08:00:00,General Surgery,Gallstones,B5
+P100707,2024-02-18 14:00:00,Cardiology,Heart Failure,B21
+P100708,2024-01-16 06:00:00,General Surgery,Gallstones,B78
+P100709,2024-02-10 21:00:00,General Surgery,Gallstones,B4
+P100710,2024-02-15 14:00:00,Cardiology,Heart Failure,B23
+P100711,2024-02-05 17:00:00,Cardiology,Heart Failure,B106
+P100712,2024-01-29 07:00:00,General Surgery,Gallstones,B84
+P100713,2024-01-25 17:00:00,Orthopedics,Fracture,B15
+P100714,2024-01-21 22:00:00,Cardiology,Arrhythmia,B114
+P100715,2024-02-25 18:00:00,ICU,Sepsis,B116
+P100716,2024-02-19 20:00:00,Cardiology,Arrhythmia,B109
+P100717,2024-02-27 21:00:00,General Surgery,Gallstones,B93
+P100718,2024-01-08 10:00:00,ICU,Respiratory Failure,B8
+P100719,2024-02-13 20:00:00,Cardiology,Arrhythmia,B41
+P100720,2024-02-26 07:00:00,Cardiology,Heart Failure,B112
+P100721,2024-01-11 20:00:00,Cardiology,Heart Failure,B19
+P100722,2024-01-04 23:00:00,Orthopedics,Joint Replacement,B112
+P100723,2024-02-14 11:00:00,Cardiology,Arrhythmia,B103
+P100724,2024-02-04 11:00:00,General Surgery,Appendicitis,B46
+P100725,2024-02-20 12:00:00,Cardiology,Heart Failure,B28
+P100726,2024-01-09 09:00:00,Orthopedics,Fracture,B110
+P100727,2024-02-17 17:00:00,ICU,Sepsis,B91
+P100728,2024-01-13 02:00:00,ICU,Sepsis,B68
+P100729,2024-01-10 19:00:00,General Surgery,Appendicitis,B15
+P100730,2024-01-10 20:00:00,Orthopedics,Joint Replacement,B99
+P100731,2024-02-18 20:00:00,General Surgery,Appendicitis,B37
+P100732,2024-02-09 21:00:00,Orthopedics,Fracture,B1
+P100733,2024-02-01 09:00:00,Orthopedics,Joint Replacement,B67
+P100734,2024-01-22 12:00:00,Cardiology,Heart Failure,B111
+P100735,2024-02-22 15:00:00,ICU,Sepsis,B24
+P100736,2024-01-24 13:00:00,Orthopedics,Fracture,B27
+P100737,2024-02-18 23:00:00,Cardiology,Heart Failure,B40
+P100738,2024-01-27 08:00:00,Orthopedics,Fracture,B63
+P100739,2024-01-23 14:00:00,Orthopedics,Joint Replacement,B61
+P100740,2024-01-28 18:00:00,ICU,Sepsis,B36
+P100741,2024-01-19 01:00:00,General Surgery,Gallstones,B98
+P100742,2024-02-14 20:00:00,General Surgery,Gallstones,B93
+P100743,2024-01-31 03:00:00,Cardiology,Heart Failure,B24
+P100744,2024-01-14 22:00:00,Orthopedics,Joint Replacement,B24
+P100745,2024-02-23 23:00:00,Orthopedics,Fracture,B106
+P100746,2024-01-24 00:00:00,Cardiology,Arrhythmia,B4
+P100747,2024-02-02 14:00:00,Orthopedics,Joint Replacement,B67
+P100748,2024-02-24 09:00:00,General Surgery,Appendicitis,B34
+P100749,2024-02-07 10:00:00,Cardiology,Heart Failure,B57
+P100750,2024-01-08 00:00:00,Orthopedics,Fracture,B49
+P100751,2024-02-26 09:00:00,Cardiology,Heart Failure,B87
+P100752,2024-02-07 15:00:00,Cardiology,Heart Failure,B53
+P100753,2024-01-21 02:00:00,Cardiology,Arrhythmia,B116
+P100754,2024-01-09 08:00:00,ICU,Respiratory Failure,B23
+P100755,2024-02-17 15:00:00,ICU,Respiratory Failure,B109
+P100756,2024-02-07 04:00:00,ICU,Respiratory Failure,B69
+P100757,2024-02-02 00:00:00,Orthopedics,Joint Replacement,B95
+P100758,2024-02-23 15:00:00,Cardiology,Arrhythmia,B53
+P100759,2024-02-17 07:00:00,Orthopedics,Joint Replacement,B62
+P100760,2024-01-10 02:00:00,Orthopedics,Fracture,B41
+P100761,2024-01-19 16:00:00,ICU,Sepsis,B57
+P100762,2024-01-15 21:00:00,Cardiology,Arrhythmia,B60
+P100763,2024-02-14 15:00:00,Orthopedics,Joint Replacement,B54
+P100764,2024-01-03 00:00:00,Cardiology,Heart Failure,B70
+P100765,2024-02-04 04:00:00,Orthopedics,Fracture,B101
+P100766,2024-02-15 17:00:00,General Surgery,Appendicitis,B57
+P100767,2024-02-22 14:00:00,Orthopedics,Fracture,B10
+P100768,2024-01-21 12:00:00,Orthopedics,Joint Replacement,B40
+P100769,2024-02-19 06:00:00,Orthopedics,Fracture,B7
+P100770,2024-01-07 15:00:00,Orthopedics,Joint Replacement,B103
+P100771,2024-02-20 18:00:00,General Surgery,Gallstones,B38
+P100772,2024-01-08 15:00:00,ICU,Respiratory Failure,B85
+P100773,2024-01-24 20:00:00,ICU,Sepsis,B61
+P100774,2024-02-17 20:00:00,General Surgery,Appendicitis,B84
+P100775,2024-01-09 23:00:00,Orthopedics,Joint Replacement,B3
+P100776,2024-01-14 18:00:00,General Surgery,Gallstones,B51
+P100777,2024-02-13 08:00:00,Orthopedics,Joint Replacement,B86
+P100778,2024-02-13 04:00:00,Orthopedics,Fracture,B47
+P100779,2024-02-08 11:00:00,ICU,Respiratory Failure,B68
+P100780,2024-02-11 15:00:00,Cardiology,Heart Failure,B92
+P100781,2024-02-02 13:00:00,ICU,Respiratory Failure,B76
+P100782,2024-01-16 02:00:00,Orthopedics,Joint Replacement,B38
+P100783,2024-01-21 17:00:00,General Surgery,Gallstones,B115
+P100784,2024-01-11 21:00:00,General Surgery,Appendicitis,B36
+P100785,2024-02-24 12:00:00,ICU,Sepsis,B111
+P100786,2024-02-05 00:00:00,General Surgery,Gallstones,B41
+P100787,2024-01-25 01:00:00,General Surgery,Appendicitis,B69
+P100788,2024-01-28 17:00:00,Cardiology,Arrhythmia,B13
+P100789,2024-02-26 20:00:00,Orthopedics,Fracture,B87
+P100790,2024-01-10 04:00:00,Cardiology,Heart Failure,B58
+P100791,2024-02-05 04:00:00,General Surgery,Appendicitis,B50
+P100792,2024-01-31 08:00:00,Orthopedics,Joint Replacement,B30
+P100793,2024-02-06 16:00:00,General Surgery,Appendicitis,B62
+P100794,2024-01-02 02:00:00,Cardiology,Heart Failure,B101
+P100795,2024-02-22 07:00:00,Cardiology,Arrhythmia,B25
+P100796,2024-02-25 22:00:00,General Surgery,Gallstones,B112
+P100797,2024-02-03 21:00:00,Cardiology,Arrhythmia,B27
+P100798,2024-02-11 19:00:00,Cardiology,Arrhythmia,B51
+P100799,2024-02-25 08:00:00,Cardiology,Heart Failure,B78
+P100800,2024-02-12 10:00:00,ICU,Sepsis,B57
+P100801,2024-01-10 03:00:00,General Surgery,Appendicitis,B112
+P100802,2024-02-04 13:00:00,Orthopedics,Fracture,B47
+P100803,2024-02-06 09:00:00,Orthopedics,Fracture,B118
+P100804,2024-01-26 10:00:00,Orthopedics,Joint Replacement,B100
+P100805,2024-02-14 04:00:00,General Surgery,Appendicitis,B39
+P100806,2024-02-26 01:00:00,General Surgery,Appendicitis,B16
+P100807,2024-02-25 12:00:00,Cardiology,Heart Failure,B22
+P100808,2024-01-28 01:00:00,Cardiology,Arrhythmia,B85
+P100809,2024-01-07 19:00:00,Cardiology,Arrhythmia,B54
+P100810,2024-02-29 02:00:00,General Surgery,Appendicitis,B21
+P100811,2024-02-20 08:00:00,General Surgery,Gallstones,B72
+P100812,2024-01-08 11:00:00,Orthopedics,Joint Replacement,B113
+P100813,2024-02-25 06:00:00,Cardiology,Arrhythmia,B16
+P100814,2024-02-22 04:00:00,Cardiology,Arrhythmia,B59
+P100815,2024-02-01 03:00:00,ICU,Respiratory Failure,B119
+P100816,2024-02-05 11:00:00,Orthopedics,Joint Replacement,B31
+P100817,2024-01-24 22:00:00,General Surgery,Gallstones,B42
+P100818,2024-01-04 06:00:00,General Surgery,Appendicitis,B74
+P100819,2024-01-21 02:00:00,Orthopedics,Fracture,B32
+P100820,2024-02-18 04:00:00,Cardiology,Arrhythmia,B59
+P100821,2024-01-01 06:00:00,Cardiology,Heart Failure,B34
+P100822,2024-01-21 00:00:00,General Surgery,Appendicitis,B9
+P100823,2024-01-24 21:00:00,General Surgery,Gallstones,B81
+P100824,2024-02-02 05:00:00,General Surgery,Appendicitis,B11
+P100825,2024-02-25 04:00:00,Orthopedics,Joint Replacement,B96
+P100826,2024-01-21 18:00:00,Cardiology,Arrhythmia,B10
+P100827,2024-01-21 19:00:00,ICU,Respiratory Failure,B86
+P100828,2024-02-14 06:00:00,General Surgery,Appendicitis,B17
+P100829,2024-01-28 03:00:00,Orthopedics,Fracture,B68
+P100830,2024-01-14 11:00:00,ICU,Sepsis,B48
+P100831,2024-01-28 03:00:00,General Surgery,Appendicitis,B52
+P100832,2024-01-09 10:00:00,General Surgery,Gallstones,B111
+P100833,2024-01-11 13:00:00,General Surgery,Gallstones,B25
+P100834,2024-01-30 21:00:00,ICU,Sepsis,B21
+P100835,2024-01-26 03:00:00,General Surgery,Gallstones,B101
+P100836,2024-02-24 21:00:00,Cardiology,Arrhythmia,B102
+P100837,2024-01-22 17:00:00,Orthopedics,Fracture,B113
+P100838,2024-02-04 20:00:00,ICU,Respiratory Failure,B65
+P100839,2024-02-07 22:00:00,Cardiology,Heart Failure,B63
+P100840,2024-01-01 18:00:00,Orthopedics,Joint Replacement,B89
+P100841,2024-02-09 19:00:00,Orthopedics,Fracture,B51
+P100842,2024-01-11 16:00:00,Orthopedics,Joint Replacement,B36
+P100843,2024-02-27 15:00:00,General Surgery,Gallstones,B81
+P100844,2024-01-09 22:00:00,ICU,Sepsis,B105
+P100845,2024-01-25 21:00:00,Cardiology,Heart Failure,B88
+P100846,2024-01-06 02:00:00,Cardiology,Heart Failure,B66
+P100847,2024-02-29 19:00:00,Cardiology,Heart Failure,B104
+P100848,2024-01-31 03:00:00,ICU,Respiratory Failure,B15
+P100849,2024-02-05 17:00:00,General Surgery,Gallstones,B96
+P100850,2024-01-05 00:00:00,Orthopedics,Fracture,B39
+P100851,2024-02-14 23:00:00,ICU,Respiratory Failure,B70
+P100852,2024-01-13 14:00:00,ICU,Sepsis,B1
+P100853,2024-02-23 21:00:00,ICU,Sepsis,B111
+P100854,2024-01-13 07:00:00,ICU,Respiratory Failure,B23
+P100855,2024-01-12 10:00:00,Orthopedics,Joint Replacement,B39
+P100856,2024-01-03 04:00:00,General Surgery,Appendicitis,B57
+P100857,2024-01-29 07:00:00,Orthopedics,Fracture,B81
+P100858,2024-02-03 21:00:00,ICU,Sepsis,B34
+P100859,2024-01-04 22:00:00,General Surgery,Gallstones,B41
+P100860,2024-02-16 12:00:00,General Surgery,Gallstones,B93
+P100861,2024-01-28 04:00:00,General Surgery,Gallstones,B73
+P100862,2024-02-01 11:00:00,Cardiology,Arrhythmia,B13
+P100863,2024-01-27 10:00:00,Orthopedics,Fracture,B70
+P100864,2024-01-25 01:00:00,ICU,Sepsis,B6
+P100865,2024-02-03 13:00:00,ICU,Sepsis,B84
+P100866,2024-01-10 07:00:00,Cardiology,Heart Failure,B52
+P100867,2024-01-11 21:00:00,Cardiology,Heart Failure,B117
+P100868,2024-02-21 16:00:00,Cardiology,Heart Failure,B3
+P100869,2024-02-26 18:00:00,General Surgery,Gallstones,B81
+P100870,2024-01-23 09:00:00,ICU,Respiratory Failure,B63
+P100871,2024-01-17 05:00:00,Cardiology,Heart Failure,B49
+P100872,2024-02-08 15:00:00,Orthopedics,Fracture,B76
+P100873,2024-01-25 12:00:00,ICU,Respiratory Failure,B112
+P100874,2024-01-02 12:00:00,General Surgery,Gallstones,B47
+P100875,2024-01-10 08:00:00,Orthopedics,Joint Replacement,B109
+P100876,2024-02-12 23:00:00,General Surgery,Gallstones,B55
+P100877,2024-02-09 12:00:00,Orthopedics,Fracture,B64
+P100878,2024-01-02 15:00:00,Orthopedics,Fracture,B65
+P100879,2024-01-14 07:00:00,General Surgery,Appendicitis,B81
+P100880,2024-01-14 20:00:00,General Surgery,Appendicitis,B67
+P100881,2024-02-10 07:00:00,ICU,Sepsis,B90
+P100882,2024-01-02 04:00:00,General Surgery,Gallstones,B15
+P100883,2024-01-07 05:00:00,General Surgery,Appendicitis,B100
+P100884,2024-02-17 23:00:00,Cardiology,Arrhythmia,B32
+P100885,2024-01-11 17:00:00,Orthopedics,Fracture,B96
+P100886,2024-02-09 03:00:00,Cardiology,Heart Failure,B68
+P100887,2024-01-15 06:00:00,Cardiology,Heart Failure,B18
+P100888,2024-01-06 23:00:00,General Surgery,Appendicitis,B113
+P100889,2024-01-15 14:00:00,ICU,Sepsis,B83
+P100890,2024-02-13 08:00:00,Cardiology,Arrhythmia,B43
+P100891,2024-02-21 08:00:00,Orthopedics,Joint Replacement,B116
+P100892,2024-02-19 19:00:00,ICU,Respiratory Failure,B35
+P100893,2024-01-24 19:00:00,Cardiology,Heart Failure,B104
+P100894,2024-02-10 02:00:00,General Surgery,Appendicitis,B78
+P100895,2024-01-13 07:00:00,General Surgery,Gallstones,B58
+P100896,2024-01-18 14:00:00,General Surgery,Appendicitis,B33
+P100897,2024-02-23 18:00:00,Cardiology,Heart Failure,B14
+P100898,2024-01-01 18:00:00,Orthopedics,Joint Replacement,B34
+P100899,2024-01-06 03:00:00,General Surgery,Appendicitis,B61
+P100900,2024-01-13 11:00:00,General Surgery,Gallstones,B119
+P100901,2024-01-02 14:00:00,Cardiology,Heart Failure,B4
+P100902,2024-01-11 21:00:00,General Surgery,Gallstones,B88
+P100903,2024-02-04 23:00:00,Cardiology,Heart Failure,B59
+P100904,2024-01-26 06:00:00,General Surgery,Appendicitis,B29
+P100905,2024-02-23 13:00:00,Cardiology,Arrhythmia,B83
+P100906,2024-02-19 01:00:00,ICU,Sepsis,B6
+P100907,2024-01-21 12:00:00,Orthopedics,Fracture,B97
+P100908,2024-01-16 13:00:00,Orthopedics,Joint Replacement,B49
+P100909,2024-01-23 18:00:00,Cardiology,Heart Failure,B40
+P100910,2024-02-05 10:00:00,Orthopedics,Joint Replacement,B83
+P100911,2024-01-17 02:00:00,ICU,Sepsis,B117
+P100912,2024-02-07 10:00:00,ICU,Sepsis,B65
+P100913,2024-01-25 13:00:00,Orthopedics,Fracture,B69
+P100914,2024-02-03 02:00:00,Orthopedics,Fracture,B27
+P100915,2024-01-27 04:00:00,General Surgery,Gallstones,B80
+P100916,2024-01-18 16:00:00,ICU,Sepsis,B6
+P100917,2024-02-26 21:00:00,General Surgery,Gallstones,B104
+P100918,2024-02-15 19:00:00,Orthopedics,Fracture,B13
+P100919,2024-01-09 09:00:00,Orthopedics,Fracture,B112
+P100920,2024-02-22 02:00:00,General Surgery,Appendicitis,B64
+P100921,2024-01-30 05:00:00,Cardiology,Heart Failure,B62
+P100922,2024-02-23 16:00:00,General Surgery,Gallstones,B99
+P100923,2024-02-17 23:00:00,Orthopedics,Joint Replacement,B19
+P100924,2024-01-26 12:00:00,General Surgery,Gallstones,B76
+P100925,2024-01-02 08:00:00,Cardiology,Arrhythmia,B80
+P100926,2024-01-17 02:00:00,General Surgery,Appendicitis,B43
+P100927,2024-02-02 11:00:00,Orthopedics,Joint Replacement,B74
+P100928,2024-02-08 00:00:00,General Surgery,Gallstones,B89
+P100929,2024-01-16 11:00:00,Cardiology,Heart Failure,B20
+P100930,2024-01-09 08:00:00,General Surgery,Appendicitis,B95
+P100931,2024-02-20 02:00:00,General Surgery,Appendicitis,B68
+P100932,2024-02-29 01:00:00,General Surgery,Appendicitis,B44
+P100933,2024-02-01 12:00:00,General Surgery,Gallstones,B23
+P100934,2024-01-11 07:00:00,General Surgery,Gallstones,B2
+P100935,2024-01-17 08:00:00,ICU,Sepsis,B22
+P100936,2024-01-02 02:00:00,Orthopedics,Fracture,B115
+P100937,2024-02-24 20:00:00,ICU,Sepsis,B57
+P100938,2024-01-08 01:00:00,Orthopedics,Joint Replacement,B101
+P100939,2024-02-04 14:00:00,Cardiology,Arrhythmia,B72
+P100940,2024-01-17 10:00:00,Cardiology,Heart Failure,B7
+P100941,2024-02-03 06:00:00,Orthopedics,Fracture,B78
+P100942,2024-02-09 02:00:00,General Surgery,Gallstones,B56
+P100943,2024-02-19 18:00:00,General Surgery,Appendicitis,B119
+P100944,2024-01-13 09:00:00,General Surgery,Appendicitis,B67
+P100945,2024-01-01 15:00:00,Orthopedics,Joint Replacement,B114
+P100946,2024-01-09 05:00:00,Orthopedics,Fracture,B16
+P100947,2024-02-24 00:00:00,Cardiology,Arrhythmia,B119
+P100948,2024-02-22 10:00:00,Orthopedics,Fracture,B83
+P100949,2024-02-05 20:00:00,Orthopedics,Fracture,B51
+P100950,2024-02-06 00:00:00,Cardiology,Arrhythmia,B82
+P100951,2024-02-09 21:00:00,Cardiology,Arrhythmia,B116
+P100952,2024-01-11 12:00:00,General Surgery,Appendicitis,B80
+P100953,2024-02-24 20:00:00,General Surgery,Gallstones,B72
+P100954,2024-01-26 03:00:00,ICU,Sepsis,B97
+P100955,2024-01-23 23:00:00,ICU,Sepsis,B113
+P100956,2024-02-01 03:00:00,General Surgery,Gallstones,B12
+P100957,2024-01-03 19:00:00,Orthopedics,Fracture,B53
+P100958,2024-01-10 23:00:00,General Surgery,Appendicitis,B75
+P100959,2024-02-14 06:00:00,General Surgery,Gallstones,B5
+P100960,2024-01-05 23:00:00,Cardiology,Arrhythmia,B27
+P100961,2024-02-06 04:00:00,Orthopedics,Fracture,B12
+P100962,2024-01-15 17:00:00,ICU,Respiratory Failure,B17
+P100963,2024-01-24 08:00:00,Orthopedics,Joint Replacement,B6
+P100964,2024-01-18 07:00:00,General Surgery,Gallstones,B97
+P100965,2024-01-22 08:00:00,General Surgery,Gallstones,B5
+P100966,2024-02-13 03:00:00,Cardiology,Heart Failure,B57
+P100967,2024-01-18 19:00:00,Orthopedics,Fracture,B28
+P100968,2024-02-03 23:00:00,Orthopedics,Fracture,B78
+P100969,2024-01-29 13:00:00,Cardiology,Arrhythmia,B69
+P100970,2024-02-09 19:00:00,Cardiology,Arrhythmia,B118
+P100971,2024-02-26 05:00:00,ICU,Respiratory Failure,B59
+P100972,2024-02-13 22:00:00,Orthopedics,Joint Replacement,B33
+P100973,2024-01-13 21:00:00,Orthopedics,Joint Replacement,B62
+P100974,2024-01-02 20:00:00,Orthopedics,Joint Replacement,B50
+P100975,2024-01-16 17:00:00,ICU,Respiratory Failure,B112
+P100976,2024-02-05 16:00:00,Orthopedics,Fracture,B105
+P100977,2024-01-04 02:00:00,Orthopedics,Fracture,B19
+P100978,2024-01-30 18:00:00,ICU,Respiratory Failure,B86
+P100979,2024-02-05 19:00:00,ICU,Respiratory Failure,B69
+P100980,2024-01-21 01:00:00,Cardiology,Arrhythmia,B66
+P100981,2024-02-16 06:00:00,ICU,Sepsis,B94
+P100982,2024-01-07 09:00:00,Orthopedics,Fracture,B47
+P100983,2024-01-05 12:00:00,Orthopedics,Joint Replacement,B39
+P100984,2024-02-13 16:00:00,Cardiology,Arrhythmia,B68
+P100985,2024-01-30 17:00:00,Cardiology,Heart Failure,B33
+P100986,2024-02-11 07:00:00,General Surgery,Appendicitis,B13
+P100987,2024-01-27 02:00:00,Orthopedics,Fracture,B84
+P100988,2024-01-15 18:00:00,Orthopedics,Fracture,B54
+P100989,2024-02-19 03:00:00,General Surgery,Gallstones,B7
+P100990,2024-02-17 23:00:00,General Surgery,Appendicitis,B79
+P100991,2024-02-11 16:00:00,Cardiology,Heart Failure,B87
+P100992,2024-01-17 07:00:00,General Surgery,Gallstones,B14
+P100993,2024-02-05 09:00:00,Cardiology,Heart Failure,B87
+P100994,2024-01-22 15:00:00,General Surgery,Appendicitis,B19
+P100995,2024-01-06 11:00:00,General Surgery,Appendicitis,B54
+P100996,2024-02-25 00:00:00,ICU,Respiratory Failure,B93
+P100997,2024-01-09 05:00:00,Cardiology,Heart Failure,B20
+P100998,2024-02-27 00:00:00,Cardiology,Arrhythmia,B29
+P100999,2024-01-27 18:00:00,Orthopedics,Joint Replacement,B24
