@@ -1,13 +1,13 @@
-# Healthcare Patient Flow & Capacity Optimization Analytics
+# 🏥 Healthcare Patient Flow & Capacity Optimization Analytics 📈
 
-# Overview
+## Overview
 
 Hospitals operate under constant pressure to reduce patient wait times, optimize bed capacity, and improve care quality—often without additional resources.
 This project analyzes end-to-end patient flow, from admission to discharge, to uncover operational inefficiencies and quantify opportunities to improve throughput and capacity using data-driven insights.
 
 **Tech Stack:** BigQuery · SQL · Python · Looker Studio
 
-# Business Problems
+## Business Problems
 
 - Healthcare operations teams commonly face:
 
@@ -23,7 +23,7 @@ This project analyzes end-to-end patient flow, from admission to discharge, to u
 
 This project addresses these challenges by transforming raw admission and discharge events into actionable operational metrics.
 
-# Project Objectives
+## Project Objectives
 
 - Analyze patient movement across departments
 
@@ -35,7 +35,7 @@ This project addresses these challenges by transforming raw admission and discha
 
 - Simulate capacity improvements without adding beds
 
-**Key Outcomes & Insights**
+## Key Outcomes & Insights
 
 1) Identified departments contributing disproportionately to delayed discharges
 
@@ -45,7 +45,7 @@ This project addresses these challenges by transforming raw admission and discha
 
 4) Highlighted patient segments with higher readmission risk to support targeted interventions
 
-# Data Description
+## Data Description
 
 The project uses synthetic / anonymized healthcare data to ensure privacy and safety.
 
@@ -67,7 +67,7 @@ The project uses synthetic / anonymized healthcare data to ensure privacy and sa
 
 The dataset structure mirrors real hospital operational data commonly found in EHR and CMS-style systems.
 
-# Architecture Overview
+## Architecture Overview
 
 Raw CSV Files
 → Ingested into BigQuery (raw datasets)
@@ -76,7 +76,7 @@ Raw CSV Files
 → Validated and enhanced with Python (data quality, features, simulations)
 → Visualized in Looker Studio Dashboards
 
-# Repository Structure
+## Repository Structure
 ```text
 .
 ├── data/
@@ -94,7 +94,7 @@ Raw CSV Files
 ├── docs/                   # Architecture & interview notes
 └── README.md
 ```
-# Key Metrics Calculated
+## Key Metrics Calculated
 
 **- Average Length of Stay (LOS)**
 
@@ -108,9 +108,9 @@ Raw CSV Files
 
 **- Department-Level Bottlenecks**
 
-# Core Analyses
+## Core Analyses
 
-# Patient Flow Analysis
+**Patient Flow Analysis**
 
 - Tracked patient journeys from admission to discharge
 
@@ -118,7 +118,7 @@ Raw CSV Files
 
 - Compared weekday vs weekend throughput
 
-# Capacity & Utilization
+**Capacity & Utilization**
 
 - Detected overutilized and underutilized units
 
@@ -126,7 +126,7 @@ Raw CSV Files
 
 - Quantified idle bed capacity during non-peak periods
 
-# Readmission Risk Analysis
+**Readmission Risk Analysis**
 
 - Segmented patients by LOS, department, and diagnosis
 
@@ -134,7 +134,7 @@ Raw CSV Files
 
 - Supported operational and clinical intervention strategies
 
-# Scenario Simulation
+**Scenario Simulation**
 
 - Modeled LOS reductions of 10% and 15%
 
@@ -142,9 +142,9 @@ Raw CSV Files
 
 - Demonstrated throughput improvements without adding beds
 
-**Dashboards (Looker Studio)**
+## Dashboards (Looker Studio)
 
-# Executive Overview
+ **Executive Overview**
 
 - Hospital occupancy trends
 
@@ -152,7 +152,7 @@ Raw CSV Files
 
 - High-impact operational bottlenecks
 
-# Operations View
+**Operations View**
 
 - Department-level utilization
 
@@ -160,7 +160,7 @@ Raw CSV Files
 
 - Daily and hourly demand patterns
 
-# Scenario Analysis
+**Scenario Analysis**
 
 - Capacity impact of LOS reductions
 
@@ -168,7 +168,7 @@ Raw CSV Files
 
 (Dashboard links and screenshots can be added here)
 
-# How to Run the Project
+## How to Run the Project
 
 **1. Load Data**
 
@@ -182,7 +182,7 @@ Raw CSV Files
    - sql/transformations
    - sql/analytics
 
-# 3. Run Python Scripts
+**3. Run Python Scripts**
 
 pip install pandas
 python python/validation/data_quality_checks.py
@@ -196,7 +196,7 @@ python python/simulation/los_reduction_simulation.py
 
 - Create Executive, Operations, and Scenario dashboards
 
-# Business Impact
+## Business Impact
 
 This project demonstrates how analytics can:
 
@@ -208,7 +208,7 @@ This project demonstrates how analytics can:
 
 4. Support data-driven healthcare operations at scale
 
-# Use Cases
+## Use Cases
 
 - Healthcare operations analytics
 
@@ -220,6 +220,6 @@ This project demonstrates how analytics can:
 
 - Interview case studies
 
-# Notes
+## Notes
 
 This project uses synthetic healthcare data and is intended for educational, analytical, and portfolio purposes only.
