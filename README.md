@@ -161,8 +161,8 @@ Looker Studio Dashboards
 ![Executive Overview Dashboard](./screenshots/executive_overview.png)
 
 - Hospital-wide occupancy trends
-- Average LOS and readmission KPIs
-- High-impact operational bottlenecks
+- Average Length of Stay (LOS) and 30-day readmission KPIs
+- High-impact operational and departmental bottlenecks
 
 ---
 
@@ -171,7 +171,7 @@ Looker Studio Dashboards
 
 - Simulated LOS reduction scenarios (10–15%)
 - Bed-days saved by department
-- Capacity gains without adding beds
+- Capacity gains achieved without adding beds
 
 
 ## How to Run the Project
